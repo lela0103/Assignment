@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    padding: 10px 10%;
+    text-align: center;
+}
+
+header h1{
+    letter-spacing: 6px;
+}
+
+main{
+    background-color: rgb(247, 247, 247);
+    padding: 30px 10%;
+}
+
+main p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img{
+    border-radius: 7px;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0.5px 2px 6px rgb(82, 82, 82);
+}
+
+a{
+    text-decoration: none;
+}
+
+img:hover{
+    width: 40%;
+    height: 40%;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: bold;
+}
